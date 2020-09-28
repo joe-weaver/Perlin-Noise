@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Perlin Noise</title>
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600i&display=swap" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
+	</head>
+	<body>
+		<h1>Perlin Noise</h1>
+		<div id="content">
+			<div id="panel">
+				<ul id="modSliders">
+					<li>
+						<label>Cell Size:</label>
+						<input id="cellSizeSlider" type="range" min=4 max=20 value=10 autocomplete="off">
+					</li>
+					<li><label>Z-Level:</label>
+						<input id="zSlider" type="range" min=0 max=1000 value=0 autocomplete="off">
+					</li>
+				</ul>
+				<div id="description">
+					<span>
+						A javascript implementation of Ken Perlin's noise algorithm adapted from 
+						<a target="_blank" href="https://gist.github.com/Flafla2/f0260a861be0ebdeef76">Flafla2</a>'s 
+						2014 <a target="_blank" href="https://flafla2.github.io/2014/08/09/perlinnoise.html">post</a>.
+					</span>
+				</div>
+			</div>
+			<canvas id="cvs" width=400px height=400px></canvas>
+		</div>
+
+		<script src=Perlin.js></script>
+		<script src=main.js></script>
+	</body>
+</html>

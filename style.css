@@ -1,0 +1,70 @@
+body{
+	background-color: black;
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Montserrat';
+}
+
+h1{
+	background-color: rgb(59, 59, 59);
+	margin: 0px;
+	padding: 20px;
+	color: white;
+	font-weight: 600;
+	font-style: italic;
+	text-align: center;
+}
+
+a{
+    color: #446622;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #5c8631;
+}
+
+a:hover{
+	color: #679638;
+}
+
+#cvs{
+	border-style: solid;
+	border-radius: 15px;
+	border-width: 5px;
+	border-color: rgb(33, 65, 39);;
+}
+
+#content{
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+	margin: 20px 0px;
+}
+
+#panel{
+	background-color: rgb(59, 59, 59);
+	margin: 0px 20px;
+	padding: 0px;
+	border-style: none;
+	border-radius: 15px;
+	width: 320px;
+}
+
+#modSliders{
+	list-style: none;
+	margin: 0px;
+	padding: 10px;
+}
+
+#modSliders li{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 15px;
+}
+
+#description{
+	padding: 25px;
+}
